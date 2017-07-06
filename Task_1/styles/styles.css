@@ -1,0 +1,96 @@
+body {
+  background: url(../img/12.gif);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+/*  font-family: 'Mallanna', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background: #313131;
+  color: #b6b6b6;
+  border: 1px solid #1a1a1a;
+  border-radius: 3px;
+  width: 90px;
+  height: 40px; 
+  opacity: 0.9;
+}
+
+.main {
+  color: #d2d2d2;
+  border: 2px solid #090909;
+  border-radius: 10px;
+  background: #313131;
+  opacity: 0.7;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  /*margin-top: 40px;*/
+}
+
+.footer {
+  color: #fff;
+  border: 2px solid #090909;
+  border-radius: 10px;
+  background: #313131;
+  opacity: 0.6;
+  text-align: center;
+  max-width: 200px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.buttons {
+  max-width: 400px;
+  margin: 10px auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.footer p a img {
+  width: 20px;
+  height: 20px;
+}
+
+#temperature {
+  font-size: 40px;
+}
+
+#current_weather {
+  font-size: 20px;
+}
+
+#humidity, #pressure, #date {
+  font-size: 15px;
+}
+
+#date {
+  font-weight: bold;
+}
+
+#time_zone {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+button:visited, button:hover, button:active {
+  background: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+button:focus {
+    outline: none;
+}
