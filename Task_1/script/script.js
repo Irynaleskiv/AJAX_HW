@@ -18,6 +18,7 @@ window.onload = function() {
 function geoFindMe() {
   var output = document.getElementById("out");
   if (!navigator.geolocation) {
+    container.style.visibility = "visible";
     output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
     return;
   }
@@ -35,6 +36,7 @@ function geoFindMe() {
   };
 
   function error() {
+    container.style.visibility = "visible";
     output.innerHTML = "Unable to retrieve your location";
   };
 
